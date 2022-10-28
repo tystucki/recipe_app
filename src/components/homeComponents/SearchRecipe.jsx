@@ -2,7 +2,6 @@ import React, { useState} from 'react'
 import RecipeCard from '../newRecipeComponents/RecipeCard'
 import './SearchRecipe.css'
 
-
 const SearchRecipe = ({recipes}) => {
 
 
@@ -20,6 +19,7 @@ const SearchRecipe = ({recipes}) => {
 
   return (
     <div className='display__recipe'>
+      
         <div className='search__recipe'>
             <input className='search__input'
             type='text'
