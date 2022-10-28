@@ -1,0 +1,11 @@
+
+.cards__search {   
+    width: 500px;
+    height: 40px;
+    border-radius: 999px;
+    border: none;
+    background-color: #f0a16c;
+    text-align: center;
+    color: white;
+    
+}

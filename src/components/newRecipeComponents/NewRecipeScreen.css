@@ -1,0 +1,100 @@
+.recipe__form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+}
+
+.recipe__form__container > h1 {
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+form {
+    align-self: center;
+}
+
+.recipe__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+}
+
+.recipe__main__info  {
+   display: flex;
+   gap: 1.5rem;
+}
+
+.recipe__main__info > input {
+    width: 225px;
+}
+
+.radios {
+    display: flex;
+    justify-content: center;
+    text-justify: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+input[type="radio"] {
+    transform: scale(2);
+}
+
+.details__input {
+    display: flex;
+    gap: 1rem;
+}
+
+ input {
+    height: 25px;
+}
+
+.ingredients__area {
+    display: flex;
+    gap: 2rem;
+}
+
+.ingredients__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+}
+
+.add__button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    padding: 6px;
+    background-color: #db7533;
+    border: none;
+    color: white;
+    border-radius: 0.1rem;
+    width: 150px;
+    height: 30px;
+}
+
+.recipe__form__container textarea {
+    border: 1px solid black;
+    padding: .2rem;
+    height: 150px;
+}
+
+.submit__button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    padding: 6px;
+    background-color: rgb(60, 160, 129);
+    border: none;
+    color: white;
+    border-radius: 0.1rem;
+    width: 150px;
+    height: 30px;
+}

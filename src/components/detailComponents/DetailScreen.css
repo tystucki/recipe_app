@@ -1,0 +1,90 @@
+.details {
+height: min-content;
+}
+
+.details__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: lightblue;
+}
+
+.recipe__title {
+    font-size: 2.5rem;
+	font-weight: bold;
+	color: #db7533;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.details__container {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.ingredient__container {
+    width: 20%;
+    margin-right: 10%;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.26);
+}
+
+.top__info > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.top__info > p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+
+.ingredients > h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.ingredients > h4 {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+
+.instructions {
+    width: 35%;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.26);
+}
+
+.instructions > h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.instructions > p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 25px;
+}

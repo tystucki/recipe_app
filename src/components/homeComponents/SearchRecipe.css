@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.search__recipe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.search__input { 
+        width: 500px;
+        height: 40px;
+        border-radius: 999px;
+        border: none;
+        background-color: #eabb9b;
+        text-align: left;
+        color: white;
+        
+    }
+
+    
+    
